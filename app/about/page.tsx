@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const About = () => {
-	throw new Error('Not today...');
+	// throw new Error('Not today...');
 	return (
 		<>
 			<h1>About</h1>

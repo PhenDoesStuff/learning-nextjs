@@ -9,8 +9,10 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<main>
-			<h1>Hello World!</h1>
-			<Link href='/about'>Go to About Page</Link>
+			<h1>Home Page</h1>
+			<p>
+				<Link href='/users'>Users</Link>
+			</p>
 		</main>
 	);
 }
