@@ -9,3 +9,5 @@ const getUserPosts = async (userId: string) => {
 
 	return res.json();
 };
+
+export default getUserPosts;

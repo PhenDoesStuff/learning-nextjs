@@ -9,3 +9,5 @@ const getUser = async (userId: string) => {
 
 	return res.json();
 };
+
+export default getUser;
